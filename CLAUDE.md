@@ -16,7 +16,7 @@ go test ./...                # test all
 ## Layout
 
 ```
-main.go                      # cobra CLI entry point
+main.go                      # stdlib CLI entry point (os.Args + flag)
 internal/
   worktree/worktree.go       # git worktree operations
   repo/repo.go               # repo registration and state
